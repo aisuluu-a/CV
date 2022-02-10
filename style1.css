@@ -1,0 +1,166 @@
+
+
+
+.container {
+   width:  100%;
+   margin: auto;
+   
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(img/ss.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+    align-items: center;
+    
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+.header_photo {
+    width: 30%;
+    
+    object-fit: cover;
+}
+
+.header_about {
+    width: 60%;
+    margin: 50px;
+    color: antiquewhite;
+
+}
+
+.header_photo img {
+    max-width:100%;
+    border: 5px solid antiquewhite;
+    border-radius: 100%;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    padding: 30px;
+
+}
+
+.main-left {
+    width: 30%;
+}
+
+.main-right {
+    width: 60%;
+}
+main  img {
+    width: 20px;
+}
+
+.title {
+    width: 100%;
+    background-image: url(img/ss.jpg);
+    font-size: 1.5em;
+    color: antiquewhite;
+}
+h3 {
+    padding: 5px 10px 5px 10px  ;
+}
+
+p, li, .name, .prof {
+        list-style: none;
+        font-size: 1.2em;
+}
+
+footer {
+    background-image: url(img/ss.jpg);
+    margin: auto;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-time {
+    margin: 20px auto;
+    color: antiquewhite;
+    font-size: 1.5em;
+    padding: 10px;
+    
+}
+
+
+    @media  (max-width: 790px) {
+        .footer {
+            width: 100%;
+            margin: auto;
+        }
+        .header {
+            max-width: 100%;
+            word-wrap: break-word ;
+            display: block;
+            justify-content: space-between;
+            
+            background-size: cover;
+          background-repeat: no-repeat;
+            align-items: center;
+            
+            padding: 30px;
+        }
+
+        .header_photo {
+            width: 75%;
+            margin: 20px;
+            object-fit: cover;
+            margin: auto;
+        }
+        
+        .header_about {
+            width: 100%;
+            margin: 20px;
+            color: antiquewhite;
+            margin: auto;
+        }
+        
+        .header_photo img {
+            max-width:100%;
+            border: 5px solid antiquewhite;
+            border-radius: 100%;
+        }
+        
+        main {
+            width: 90%;
+            margin: auto;
+            display: block;
+            
+            padding: 30px;
+        
+        }
+        
+        .main-left {
+            width: 100%;
+            margin: auto;
+        }
+        
+        .main-right {
+            width: 100%;
+            margin: auto;
+        }
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
